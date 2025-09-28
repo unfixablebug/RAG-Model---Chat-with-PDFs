@@ -118,7 +118,25 @@ def create_ai_enhanced_summary(text, tables, images):
                 Generate a detailed searchable description that covers:
 
                 1. The structure of the table
-                2. All topics and concepts discussed  
+                2. Key data and facts  
+
+                Keep a special note of the following:
+                1. Total Global GHG Emissions
+                1.1. Scope 1
+                1.2. Scope 2
+                1.3. Scope 3
+                2. Total global water consumption
+                3. Water discharged
+                4. Paternity and maternity leaves
+                5. Percentage of women in
+                5.1. board only
+                5.2. management only
+                5.3. leadership only
+                6. Ratio of Women to men average salary in 
+                6.1. board positions only
+                6.2. management only
+                6.3. leadership only
+                6.4. workforce
 
                 SEARCHABLE DESCRIPTION:"""
 
