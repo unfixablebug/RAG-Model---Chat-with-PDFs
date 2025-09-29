@@ -115,11 +115,16 @@ def create_ai_enhanced_summary(text, tables, images):
         
                 prompt_text += """
                 YOUR TASK:
-                Generate a detailed searchable description that covers:
+                Generate a comprehensive, searchable description that covers:
 
-                1. The structure of the table
-                2. Key data and facts  
+                1. Key facts, numbers, and data points from text and tables
+                2. Main topics and concepts discussed  
+                3. Questions this content could answer
+                4. Visual content analysis (charts, diagrams, patterns in images)
+                5. Alternative search terms users might use
 
+                Make it detailed and searchable - prioritize findability over brevity.
+                
                 Keep a special note of the following:
                 1. Total Global GHG Emissions
                 1.1. Scope 1
